@@ -4,8 +4,11 @@
 
 void Agent::start()
 {
+	Actor::start();
+
 	m_moveComponent = addComponent<MoveComponent>();
 	m_moveComponent->setMaxSpeed(500);
+	m_moveComponent->setUpdateFacing(true);
 }
 
 void Agent::update(float deltaTime)

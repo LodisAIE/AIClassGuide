@@ -63,6 +63,7 @@ inline void DynamicArray<T>::addItem(T item[], int size) {
 	}
 
 	m_count += size;
+	delete[] m_items;
 	m_items = tempArray;
 }
 

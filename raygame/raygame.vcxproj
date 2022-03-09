@@ -162,8 +162,9 @@
     <ClCompile Include="Scene.cpp" />
     <ClCompile Include="SeekComponent.cpp" />
     <ClCompile Include="SpriteComponent.cpp" />
-    <ClCompile Include="SteeringComponent.cpp" />
+    <ClCompile Include="StateMachineComponent.cpp" />
     <ClCompile Include="Transform2D.cpp" />
+    <ClCompile Include="WanderComponent.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AABBCollider.h" />
@@ -181,8 +182,10 @@
     <ClInclude Include="Scene.h" />
     <ClInclude Include="SeekComponent.h" />
     <ClInclude Include="SpriteComponent.h" />
+    <ClInclude Include="StateMachineComponent.h" />
     <ClInclude Include="SteeringComponent.h" />
     <ClInclude Include="Transform2D.h" />
+    <ClInclude Include="WanderComponent.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
